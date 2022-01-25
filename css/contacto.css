@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #9FB6BF;
+    background-size: contain;
+    overflow-x: hidden;
+}
+.logo img{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.logo{
+    text-align: center;
+}
+
+
+h1{
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #F2F2F2;
+    margin-bottom: 20px;
+}
+#header {
+    margin: auto;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #024059;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block; 
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li a{
+    display: block;
+    background-color: #024059;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color:#F2F2F2;
+    margin-left: 170px;
+    padding-top: 20px;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.nav li ul{
+    display:none;
+    position: absolute;    
+}
+
+.nav li:hover > ul {
+    display: inline;
+}
+
+
+form{
+    text-align: center;
+    width: 100%;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+}
+
+input{
+    background-color: #024059;
+    width: 25%;
+    margin: 20px;
+    border: solid 1px #F2F2F2;
+    padding:10px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:20px;
+    color: #F2F2F2;
+}
+
+textarea{
+    background-color: #024059;
+    width: 25%;
+    margin: 20px;
+    border: solid 1px #F2F2F2;
+    padding:10px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:20px;
+    color: #F2F2F2;
+
+}
+
+.texto {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300; 
+    padding: 60px;
+
+}
+
+footer li a{
+    display:inline-block;
+    width: 100%;
+    background-color: #024059;
+    text-decoration: none;
+    padding: 20px 0 20px 0;
+    overflow-x: hidden;
+}
+
+footer li{
+    display:inline-block;
+}
+
+footer p{
+    color: black;
+}
+footer{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #024059;
+    height: 30%;
+    padding-top:20px;
+    position: relative;
+}
+
