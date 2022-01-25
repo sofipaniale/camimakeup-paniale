@@ -12,6 +12,7 @@ body{
     margin-top: 20px;
     width: 150px;
     height: 150px;
+    transform: rotate(15deg);
 }
 
 .logo{
@@ -31,7 +32,8 @@ h1{
     margin: auto;
     padding-bottom: 30px;
     width: 100%;
-    background-color: #024059;
+    background: linear-gradient(to top, #024059, #9FB6BF);
+
 }
 
 ul{
@@ -64,6 +66,7 @@ ul{
 
 .nav li a:hover {
     background-color: #434343;
+    width: 100px;
 }
 
 .nav li ul{
@@ -118,6 +121,12 @@ ul{
 
 }
 
+@keyframes cambiodefondo {
+    0% {background-color: #9FB6BF}
+    50% {background-color: #024059;}
+    100% {background-color: lightslategray;}
+}
+
 article{
     text-align: center;
     background-color: #9FB6BF;
@@ -127,6 +136,8 @@ article{
     width: 100%;
     border: solid 1px #024059;
     padding:0 30px 0 30px;
+    animation-name: cambiodefondo;
+    animation-duration: 4s;
 }
 
 form{
@@ -169,7 +180,7 @@ footer{
     font-weight: 600;
     color: #F2F2F2;
     text-align: center;
-    background-color: #024059;
+    background: linear-gradient(to bottom,#024059, #9FB6BF);
     height: 30%;
     padding-top:20px;
     position: relative;
