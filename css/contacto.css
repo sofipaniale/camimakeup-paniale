@@ -44,7 +44,8 @@ ul{
 }
 
 .nav li a{
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: #024059;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
