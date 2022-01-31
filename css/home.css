@@ -87,7 +87,7 @@ nav{
 }
 .nav li a:hover {
     background-color: #434343;
-    width: 100px;
+
 }
 
 .nav li ul{
@@ -99,6 +99,12 @@ nav{
 .nav li:hover > ul {
     display: inline;
     background-color: #024059;
+}
+
+#carouselExampleControls{
+    width: 80%;
+    margin: 20px auto;
+
 }
 
 .texto {
@@ -200,7 +206,7 @@ footer{
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    background: linear-gradient(to bottom,#024059, #9FB6BF);
+    background-color: #024059;
     height: 30%;
     padding-top:20px;
 }
@@ -219,6 +225,9 @@ footer{
         padding:20px 70px 20px 70px;
         width: 100%;
     
+    }
+    .menu_bar{
+        display:none;
     }
 
 
@@ -248,7 +257,6 @@ footer{
         display:inline-block;
         background-color: #024059;
     }
-
 
     article{
         text-align: center;
